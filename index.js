@@ -22,6 +22,7 @@ class hero{
                 break
             default:
                 console.log(`${this.tipo} não é uma classe válida`)
+                console.log("As classe válidas são : mago, guerreiro, monge e ninja");
 
         }
 
@@ -30,6 +31,6 @@ class hero{
 
 }
 
-let heroi = new hero ("Jao", 27, "ninja")
+let heroi = new hero ("Jao", 27, "necro")
 
 heroi.exibirMensagem()
